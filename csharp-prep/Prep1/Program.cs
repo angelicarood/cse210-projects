@@ -10,5 +10,23 @@ class Program
     string lastname = Console.ReadLine();
 
     Console.WriteLine($"My name is {lastname}, {name} {lastname}.");
+
+    Console.WriteLine("What is your grade percentage?");
+    string UserInput = Console.ReadLine();
+    int Percentage = int.Parse(UserInput);
+
+    if (Percentage >= 90)
+
+    {
+      Console.WriteLine("A");
+    }
+    if (Percentage >= 80 && Percentage < 90)
+    {
+      Console.WriteLine("B");
+    }
+
   }
+
+
+
 }
