@@ -8,11 +8,16 @@ class Program
 
     job1._jobTitle = "Data scientist";
     job1._company = "Google";
-    job1.DisplayCompany();
+    job1._startYear = 2000;
+    job1._endYear = 2015;
+    job1.DisplayJobDetails();
 
     Job job2 = new Job();
 
+    job2._jobTitle = "Software engineer";
     job2._company = "Facebook";
-    job2.DisplayCompany();
+    job2._startYear = 2005;
+    job2._endYear = 2020;
+    job2.DisplayJobDetails();
   }
 }
