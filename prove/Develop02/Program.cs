@@ -27,14 +27,21 @@ class Program
       {
         string question = questions.GetRandomQuestion();
         Console.WriteLine(question);
+        DateTime date = DateTime.Now;
         string response = Console.ReadLine();
-        journal.AddEntry(question, response);
+        journal.AddEntry(question, response, date);
 
       }
       else if (_userOption == "2")
       {
 
         journal.DisplayEntries();
+      }
+      else if (_userOption == "4")
+      {
+        string question = questions.GetRandomQuestion();
+        DateTime date = DateTime.Now;
+        journal.SaveToFile();
       }
 
       // put other stuff 3,4,5
