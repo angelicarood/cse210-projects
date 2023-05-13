@@ -1,6 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.IO;
 class Program
 {
   static void Main(string[] args)
@@ -37,14 +35,19 @@ class Program
 
         journal.DisplayEntries();
       }
-      else if (_userOption == "4")
+      else if (_userOption == "3")
       {
-        string question = questions.GetRandomQuestion();
-        DateTime date = DateTime.Now;
-        journal.SaveToFile();
+        journal.LoadEntries();
       }
 
-      // put other stuff 3,4,5
+
+      else if (_userOption == "4")
+      {
+        journal.SaveToFile();
+        Console.WriteLine("File Saved\n");
+      }
+
+
 
       else
       {

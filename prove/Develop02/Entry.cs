@@ -8,7 +8,7 @@ public class Entry
   {
     Question = question;
     Response = response;
-    Date = date;
+    DateTime Date = date;
   }
 
   public void PrintEntry()
@@ -27,4 +27,5 @@ public class Entry
   {
     return Date;
   }
+
 }

@@ -28,6 +28,7 @@ public class Journal
   }
   public void SaveToFile()
   {
+
     string fileName = "Entries.txt";
     using (StreamWriter outputFile = new StreamWriter(fileName))
     {
@@ -38,4 +39,26 @@ public class Journal
     }
   }
 
+
+  public void LoadEntries()
+  {
+    string filename = "Entries.txt";
+    string[] lines = System.IO.File.ReadAllLines(filename);
+
+
+    foreach (string line in lines)
+    {
+      Console.WriteLine(line);
+
+    }
+
+
+
+  }
 }
+
+
+
+
+
+
