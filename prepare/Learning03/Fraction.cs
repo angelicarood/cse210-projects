@@ -26,9 +26,9 @@ public class Fraction
 
   }
 
-  public int GetDecimalValue()
+  public double GetDecimalValue()
   {
-    return (int)((double)_top / (double)_bottom);
+    return (double)_top / (double)_bottom;
   }
 
 }
