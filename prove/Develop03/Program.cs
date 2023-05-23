@@ -2,8 +2,13 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+  static void Main(string[] args)
+  {
+    string _UserResponse = "";
+    while (_UserResponse != "quit")
     {
-        Console.WriteLine("Hello Develop03 World!");
+      _UserResponse = Console.ReadLine();
+      Console.WriteLine();
     }
+  }
 }
