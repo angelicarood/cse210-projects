@@ -1,0 +1,3 @@
+Simple,eat veggies,eat them everyday for 1 week,50,50
+Eternal,read scriptures,read them everyday,200,0
+Checklist,Temple,go 10 times,100,10
