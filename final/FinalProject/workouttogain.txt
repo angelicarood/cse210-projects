@@ -1,0 +1,79 @@
+Workout: Barbell Squats
+Duration: 30 minutes
+Repetitions: 3 sets of 10-12 reps.
+
+Workout: Deadlifts
+Duration: 30 minutes
+Repetitions: 3 sets of 8-10 reps.
+
+Workout: Bench Press
+Duration: 30 minutes
+Repetitions: 3 sets of 8-10 reps.
+
+Workout: Dumbbell Shoulder Press
+Duration: 20 minutes
+Repetitions: 3 sets of 8-12 reps.
+
+Workout: Barbell Rows
+Duration: 20 minutes
+Repetitions: 3 sets of 8-12 reps.
+
+Workout: Pull-Ups
+Duration: 20 minutes
+Repetitions: 3 sets of 8-10 reps.
+
+Workout: Dumbbell Bicep Curls
+Duration: 15 minutes
+Repetitions: 3 sets of 10-12 reps.
+
+Workout: Tricep Dips
+Duration: 15 minutes
+Repetitions: 3 sets of 10-12 reps.
+
+Workout: Leg Press
+Duration: 30 minutes
+Repetitions: 3 sets of 10-12 reps.
+
+Workout: Calf Raises
+Duration: 15 minutes
+Repetitions: 3 sets of 12-15 reps.
+
+Workout: Hammer Strength Chest Press
+Duration: 20 minutes
+Repetitions: 3 sets of 8-10 reps.
+
+Workout: Lat Pulldowns
+Duration: 20 minutes
+Repetitions: 3 sets of 8-12 reps.
+
+Workout: Dumbbell Lunges
+Duration: 20 minutes
+Repetitions: 3 sets of 10-12 reps.
+
+Workout: Barbell Hip Thrusts
+Duration: 20 minutes
+Repetitions: 3 sets of 10-12 reps.
+
+Workout: Seated Cable Rows
+Duration: 20 minutes
+Repetitions: 3 sets of 8-12 reps.
+
+Workout: Dumbbell Shoulder Lateral Raises
+Duration: 15 minutes
+Repetitions: 3 sets of 10-12 reps.
+
+Workout: Skull Crushers
+Duration: 15 minutes
+Repetitions: 3 sets of 10-12 reps.
+
+Workout: Leg Extensions
+Duration: 15 minutes
+Repetitions: 3 sets of 10-12 reps.
+
+Workout: Seated Calf Raises
+Duration: 15 minutes
+Repetitions: 3 sets of 12-15 reps.
+
+Workout: Incline Dumbbell Bench Press
+Duration: 20 minutes
+Repetitions: 3 sets of 8-10 reps.

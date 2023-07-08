@@ -1,0 +1,30 @@
+Chicken Alfredo Pasta, 800
+Avocado Toast, 500
+Peanut Butter Banana Smoothie, 600
+Steak with Mashed Potatoes, 1000
+Cheeseburger with Fries, 1200
+Loaded Baked Potato, 700
+Pasta Carbonara, 900
+Nutella Pancakes, 600
+Beef Burrito, 1000
+Milkshake (Chocolate), 800
+Salmon with Quinoa, 900
+Buffalo Chicken Wings, 1200
+Peanut Butter Cookies, 400
+Tuna Salad Sandwich, 600
+Macaroni and Cheese, 800
+Chicken Quesadilla, 900
+Banana Bread, 500
+Fish and Chips, 1000
+Nachos with Cheese, 800
+Lasagna, 1200
+Oreo Milkshake, 600
+Chicken Caesar Salad, 700
+Pizza (Pepperoni), 1000
+Shrimp Alfredo Pasta, 900
+Cinnamon Rolls, 600
+
+
+
+
+
