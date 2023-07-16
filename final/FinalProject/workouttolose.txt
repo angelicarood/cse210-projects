@@ -1,63 +1,16 @@
-Workout: High-Intensity Interval Training (HIIT)
-Duration: 20 minutes
-Repetitions: 3 sets of 10 exercises
-
-Workout: Running or Jogging
-Duration: 30 minutes
-Repetitions: N/A
-
-Workout: Cycling
-Duration: 45 minutes
-Repetitions: N/A
-
-Workout: Swimming
-Duration: 40 minutes
-Repetitions: N/A
-
-Workout: Jumping Rope
-Duration: 15 minutes
-Repetitions: N/A
-
-Workout: Circuit Training
-Duration: 30 minutes
-Repetitions: 3 sets of 8 exercises
-
-Workout: Burpees
-Duration: 10 minutes
-Repetitions: 3 sets of 15 repetitions
-
-Workout: Mountain Climbers
-Duration: 10 minutes
-Repetitions: 3 sets of 20 repetitions
-
-Workout: Tabata Workouts
-Duration: 15 minutes
-Repetitions: 8 sets of 20 seconds work, 10 seconds rest.
-
-Workout: Zumba or Dance Fitness
-Duration: 45 minutes
-Repetitions: N/A.
-
-Workout: Boxing or Kickboxing
-Duration: 60 minutes
-Repetitions: N/A.
-
-Workout: Stair Climbing
-Duration: 20 minutes
-Repetitions: N/A.
-
-Workout: Yoga
-Duration: 60 minutes
-Repetitions: N/A.
-
-Workout: Pilates
-Duration: 45 minutes
-Repetitions: N/A.
-
-Workout: Rowing
-Duration: 30 minutes
-Repetitions: N/A.
-
-Workout: Bodyweight Exercises (Push-ups, Squats, Lunges)
-Duration: 20 minutes
-Repetitions: 3 sets of 12 repetitions for each exercise.
+Workout: High-Intensity Interval Training (HIIT) Duration: 20 minutes Repetitions: 3 sets of 10 exercises.
+Workout: Running or Jogging Duration: 30 minutes Repetitions: N/A.
+Workout: Cycling Duration: 45 minutes Repetitions: N/A.
+Workout: Swimming Duration: 40 minutes Repetitions: N/A.
+Workout: Jumping Rope Duration: 15 minutes Repetitions: N/A.
+Workout: Circuit Training Duration: 30 minutes Repetitions: 3 sets of 8 exercises.
+Workout: Burpees Duration: 10 minutes Repetitions: 3 sets of 15 repetitions.
+Workout: Mountain Climbers Duration: 10 minutes Repetitions: 3 sets of 20 repetitions.
+Workout: Tabata Workouts Duration: 15 minutes Repetitions: 8 sets of 20 seconds work, 10 seconds rest.
+Workout: Zumba or Dance Fitness Duration: 45 minutes Repetitions: N/A.
+Workout: Boxing or Kickboxing Duration: 60 minutes Repetitions: N/A.
+Workout: Stair Climbing Duration: 20 minutes Repetitions: N/A.
+Workout: Yoga Duration: 60 minutes Repetitions: N/A.
+Workout: Pilates Duration: 45 minutes Repetitions: N/A.
+Workout: Rowing Duration: 30 minutes Repetitions: N/A.
+Workout: Bodyweight Exercises (Push-ups, Squats, Lunges) Duration: 20 minutes Repetitions: 3 sets of 12 repetitions for each exercise.

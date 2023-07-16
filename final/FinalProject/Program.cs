@@ -4,8 +4,27 @@ class Program
   {
     Console.WriteLine("Welcome to the Fitness Tracker!");
 
+
+
+
+    for (int i = 0; i < 5; i++)
+    {
+      Thread.Sleep(500); // Pause for half a second
+      Console.Write(".");
+    }
+    Console.WriteLine();
+
     Console.WriteLine("Do you want to lose weight or gain weight? (Lose/Gain)");
     string weightGoal = Console.ReadLine();
+
+
+
+    for (int i = 0; i < 5; i++)
+    {
+      Thread.Sleep(500); // Pause for half a second
+      Console.Write(".");
+    }
+    Console.WriteLine();
 
     Console.WriteLine("Enter your desired calorie intake per week:");
     int calorieGoal = Convert.ToInt32(Console.ReadLine());
@@ -25,8 +44,12 @@ class Program
       Console.WriteLine("Invalid choice. Exiting program.");
       return;
     }
-
-    fitnessTracker.SetGoal();
+    for (int i = 0; i < 5; i++)
+    {
+      Thread.Sleep(500); // Pause for half a second
+      Console.Write(".");
+    }
+    Console.WriteLine();
 
     bool isRunning = true;
 

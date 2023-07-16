@@ -8,15 +8,10 @@ public class WeightGoal : FitnessTracker
 
   public override void SetGoal()
   {
-    Console.WriteLine("Set your weight goal:");
-    Console.WriteLine("Enter goal calories per week:");
-    int goalCalories = Convert.ToInt32(Console.ReadLine());
-
     Console.WriteLine("Enter goal weight:");
     string goalWeight = Console.ReadLine();
 
-    _GoalCalories = goalCalories;
-    _GoalWeight = goalWeight;
+    SetWeightGoal(goalWeight);
   }
 
   public override void PlanMeal()

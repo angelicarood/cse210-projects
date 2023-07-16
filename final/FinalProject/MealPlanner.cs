@@ -29,6 +29,16 @@ public class MealPlanner : FitnessTracker
 
   public string GetRandomRecipeGain()
   {
+    Console.WriteLine("Generating meal suggestion...");
+
+
+
+    for (int i = 0; i < 5; i++)
+    {
+      Thread.Sleep(500); // Pause for half a second
+      Console.Write(".");
+    }
+    Console.WriteLine();
     string[] recipesgain = File.ReadAllLines("randommealgain.txt");
     Random random = new Random();
     int randomIndex = random.Next(0, recipesgain.Length);
@@ -38,6 +48,16 @@ public class MealPlanner : FitnessTracker
   public List<Recipe> SuggestMealByIngredients(List<Recipe> recipes, List<string> ingredients)
   {
     Console.WriteLine("Suggesting a meal based on ingredients...");
+    Console.WriteLine("Generating workout suggestion...");
+    Thread.Sleep(2000); // Pause for 2 seconds
+
+    Console.Write("Calculating");
+    for (int i = 0; i < 5; i++)
+    {
+      Thread.Sleep(500); // Pause for half a second
+      Console.Write(".");
+    }
+    Console.WriteLine();
     List<Recipe> suggestedMeal = new List<Recipe>();
 
     // Logic for suggesting a meal based on the provided ingredients and recipes
@@ -78,6 +98,19 @@ public class MealPlanner : FitnessTracker
     }
 
     Console.WriteLine("Receipts loaded successfully!");
+
+    if (Meals.Count > 0)
+    {
+      Console.WriteLine("Loaded Meals:");
+      foreach (Recipe meal in Meals)
+      {
+        Console.WriteLine($"{meal.Name}: {meal.Calories} calories");
+      }
+    }
+    else
+    {
+      Console.WriteLine("No meals found in the receipts.");
+    }
   }
 
   public override void SetGoal()
@@ -95,6 +128,26 @@ public class MealPlanner : FitnessTracker
 
   public override void SuggestWorkout()
   {
-    throw new NotImplementedException();
+    Console.WriteLine("Suggesting workouts based on weight goal...");
+    Console.WriteLine($"Goal calories per week: {_GoalCalories}");
+    Console.WriteLine($"Goal weight: {_GoalWeight}");
+
+    Console.WriteLine("Generating workout suggestion...");
+    Thread.Sleep(2000); // Pause for 2 seconds
+
+    Console.Write("Calculating");
+    for (int i = 0; i < 5; i++)
+    {
+      Thread.Sleep(500); // Pause for half a second
+      Console.Write(".");
+    }
+    Console.WriteLine();
+
+    string[] workouts = File.ReadAllLines("workouttolose.txt");
+    Random random = new Random();
+    int randomIndex = random.Next(0, workouts.Length);
+    string suggestedWorkout = workouts[randomIndex];
+
+    Console.WriteLine($"Suggested Workout: {suggestedWorkout}");
   }
 }

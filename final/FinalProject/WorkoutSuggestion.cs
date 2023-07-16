@@ -8,7 +8,18 @@ public class WorkoutSuggestion : FitnessTracker
   }
 
   public string GetRandomWorkoutLose()
+
   {
+    Console.WriteLine("Generating workout suggestion...");
+    Thread.Sleep(2000); // Pause for 2 seconds
+
+    Console.Write("Calculating");
+    for (int i = 0; i < 5; i++)
+    {
+      Thread.Sleep(500); // Pause for half a second
+      Console.Write(".");
+    }
+    Console.WriteLine();
     string[] workoutLoseLines = File.ReadAllLines("workouttolose.txt");
     string workoutLose = SelectRandomItem(workoutLoseLines);
     string[] workoutLoseItems = workoutLose.Split('.');
@@ -18,6 +29,16 @@ public class WorkoutSuggestion : FitnessTracker
 
   public string GetRandomWorkoutGain()
   {
+    Console.WriteLine("Generating workout suggestion...");
+    Thread.Sleep(2000); // Pause for 2 seconds
+
+    Console.Write("Calculating");
+    for (int i = 0; i < 5; i++)
+    {
+      Thread.Sleep(500); // Pause for half a second
+      Console.Write(".");
+    }
+    Console.WriteLine();
     string[] workoutGainLines = File.ReadAllLines("workouttogain.txt");
     string workoutGain = SelectRandomItem(workoutGainLines);
     string[] workoutGainItems = workoutGain.Split('.');
